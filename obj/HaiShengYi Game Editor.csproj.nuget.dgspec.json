@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Visual Studio\\Solutions\\HaiShengYi Game Editor\\HaiShengYi Game Editor\\HaiShengYi Game Editor.csproj": {}
+  },
+  "projects": {
+    "D:\\Visual Studio\\Solutions\\HaiShengYi Game Editor\\HaiShengYi Game Editor\\HaiShengYi Game Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Visual Studio\\Solutions\\HaiShengYi Game Editor\\HaiShengYi Game Editor\\HaiShengYi Game Editor.csproj",
+        "projectName": "HaiShengYi Game Editor",
+        "projectPath": "D:\\Visual Studio\\Solutions\\HaiShengYi Game Editor\\HaiShengYi Game Editor\\HaiShengYi Game Editor.csproj",
+        "packagesPath": "C:\\Users\\emiln\\.nuget\\packages\\",
+        "outputPath": "D:\\Visual Studio\\Solutions\\HaiShengYi Game Editor\\HaiShengYi Game Editor\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\emiln\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.0-preview2.23159.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
